@@ -20,6 +20,8 @@ Review sentiment vs sales
 
 Sales forecasting
 
+Data source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data/code?select=olist_customers_dataset.csv
+
                 ┌──────────────────────────┐
                 │      Data Sources        │
                 │ Orders, Items, Products, │
