@@ -51,5 +51,6 @@ Sales forecasting
                    │ - Geo enrichment  │
                    └───────────────────┘
 
-      <img width="1263" height="667" alt="Screenshot 2025-09-16 at 12 21 40 AM" src="https://github.com/user-attachments/assets/20adb6de-373e-4c84-82c4-388e1f63ed02" />
+  <img width="1263" height="667" alt="Screenshot 2025-09-16 at 12 21 40 AM" src="https://github.com/user-attachments/assets/2e1cd517-995c-4ace-b72e-fd7a3d7fa39b" />
+
 
