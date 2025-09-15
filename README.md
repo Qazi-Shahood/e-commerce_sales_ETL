@@ -19,3 +19,35 @@ Delivery performance metrics
 Review sentiment vs sales
 
 Sales forecasting
+
+                ┌──────────────────────────┐
+                │      Data Sources        │
+                │ Orders, Items, Products, │
+                │ Customers, Payments, Geo │
+                └──────────────┬───────────┘
+                               │
+                               ▼
+                      ┌────────────────┐
+                      │  Bronze Layer  │
+                      │ Raw CSVs as-is │
+                      └───────┬────────┘
+                              │
+                              ▼
+                    ┌──────────────────┐
+                    │  Silver Layer    │
+                    │ Cleaning &       │
+                    │ Standardization  │
+                    │ - Valid orders   │
+                    │ - Clean products │
+                    │ - Aggregate price│
+                    └───────┬──────────┘
+                            │
+                            ▼
+                   ┌───────────────────┐
+                   │   Gold Layer      │
+                   │ Business Insights │
+                   │ - Revenue by cat  │
+                   │ - Orders by city  │
+                   │ - Geo enrichment  │
+                   └───────────────────┘
+      
